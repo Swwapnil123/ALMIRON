@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALMIRON</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    
+    <link rel="stylesheet" href="Styles/index.css"> 
+    <link rel="stylesheet" href="Styles/footer.css"> 
+
+</head>
+
+<body>
+    <div >
+        <!-- ....................nav..................... -->
+      <div id="nav">
+       <img class="ellipes1" src="images/Ellipse 104.jpg" alt=""/>
+       <p class="text1"> Don’t Miss 40% off everything with code Fashion25 </p>
+       <img class="ellipes2" src="images/Ellipse 104.jpg" alt=""/>
+      </div>
+<!-- ...................................................................... -->
+<div id="navbar">
+
+
+    <h1 class="aLMIROn">ALMIRON</h1>
+     <input class="search" type="text" placeholder="search here"/>
+     <img class="cl1" src="images/Vector 49.jpg"/>
+     <img class="cl1"src="data:image/png;base64,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"/>
+     <img class="cl1"src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACZCAMAAAALgmiIAAAAYFBMVEX///8AAACmpqbu7u6Li4v29va7u7v6+vri4uJiYmLY2Nhzc3Po6Ojl5eW4uLizs7POzs6Xl5eFhYXFxcV9fX0jIyNBQUEPDw9ZWVkvLy9qamoZGRk5OTlMTEydnZ1SUlIM66xuAAAFJUlEQVR4nO2cbYOqIBCFKzVL7cUttSzt///LW+0qRwVhYLa9H3g+tognQM7MYLtYeDwej8fj8Xg8FkRSYkoXMam1IevzVkraBqZdZG1d5wmzruCyVFKtzfpYfzdvWYXFtVrYE6NxOFY/rQ+cyvazwpZbgy7ibdf6xqnsPK/sutF3ERCH2AzNZBpN0E60NlyXRmjGbHnWd7H5HWVrjbJCv3P8kjLtdJ7+Stki0Ej7+jNlzwn9SsfA6rtHf6fsZXojFmV/s9vxL5VNWYm7aT3ns8p6w3nagG46P6sseojb6Wzgs8oWobidzgY+rOwobvf4v5QtxO10NvBpZanxdH5aGRiqxgYgCtJbGQObe3+/cjCd2SEPB4Bh1MO/hKvdsNM4SybsqLkNWj3awEkoNqAY7NOb9CppkmpdZgTYAEzniaLrxUpce5ToekNcBBCqFv2HMWnEXoh4PVYJW153UgVKhKuL+J48ZPBkz1xLzAdzyZUrde8q8u7aUN0mpT0Fibiy7lz9QFfWL7QvNmWBcPWiWyxZpe5eTtU/eTMpR66QoAK+5EHymRnbfjgitXrqDg1L9tJ9FuvSwBENzJNy0C6yu88RwdT1N4j3F/MZLQ8D+zjd5M3o9RBw9b26FSVHT9b7N+s19H3VJkET4EmccXW7WAOKYyFZ2CIr+qubjFcZrGGTqs4YlaszKIOea7qwwZavHnIbZYmYjZnvPNeBeAyvrMrA+e42wgaurlwNFsoCGLKVvrmM0KAHC2VQg70TI6AOcPWtynUtlEGebbFlvAnEdCofbroyqE1oKwBKDHJ1ujIIC8iW2QMurNp3yMowlLLPUAMI3hULjaysFRc0xgdIU7aiG0UURVWGmYrllvFG7+pUZRim0aMMAdQGFEOfiRYmRoNmnDoIg1MlCOkHRCIHNVk1MMR2ltkDrq5IJPoWBgcug1Ob2mUyn9uiCJEVNb6onp3tUWOIuB1PHeNGdKXyuPZR3Br9mcYLmILKTZg8uRsTJInZzhS5RdlD0NVd+8Io+2ZtmR2RCKZsQxYBbNzEkoEMmM6Z5M4IyAA5SqcQ55mtcjUQZavDd3OgZFu47UAZRO8ultkDi8Nt1wYTvqoTWAJGyZ0JJVdHHeDqpct0wv5TMb1AIWygcOkRLNM+yh5COYhVs4GQkeu0BVxdmdzpge9XOkTZA/Ag1v6ZgsSc77UrDhsAyyycLbMHDmKtXR0tk00YHsReLZeIc2FKgVnJdg5YEA5P0RR09cCGHUTZLJbZsVEetNFh2zLeQHLnjGsoNcLilE4FS5Qh2OnvaIhVLXsOroVGPv7SMnNwSqJxC4slHPU3NYJ1y3iDru6AYyYhhWXQKte8UC5t5uVzQ0pOxwSi42HlxJF19/d4PB6Px0MnitwjK+rvCA3IVufm/jjvXWKFeB9eyiZd8VVbnrRddftuH/idusJlEbKFtREUNawrv3B4vmycj2J+QGH0tyW/GSbSD55RG2fnNvniZtQHS809GL8QbVNjSkd9VByPwfTlXnrhfVpJslsTQ6Zv0NJz2en7qroftxggKU/Rq6ztpA+Gk7p4mmTSizlTZYW7F0h+RkmvzE3XquU7hAPySa90HzhNXlt2P5GX9Hqj1wyjcqyMpbwxrgGdLZbIeODvLGWEUQ3I5pXhyaAxVYSG9mRXzMQTFK4D4cXg0brbVlkTYQNVzhc+Jl/fj8E1tK+YB+2Ptpq3hrZb52F7clu3wbEN88PmN/4Th8fj8Xg8Ho/H4/F4/gv+AYb6No6abwPdAAAAAElFTkSuQmCC"/>
+     <a href='login.html'>
+        <img class="cl1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyszh0PHAJMZPt5P8cGCegxD8v0048-TsC0iDnU1fnbRo-s77SwEivIMSnhVHSWCChOZo&usqp=CAU"/>
+      </a>
+
+
+    </div>
+<!-- ..................................................................................... -->
+<div id="lastnav">
+
+    <!--.................................................................. home page list.................................................................................... -->
+<div class="list">
+    
+    <div>  <ul id="menu">
+          <li><a href="#">MEN<span><i class="fa-solid fa-angle-down down"></i></span></a>
+          <uL>
+              <li>T-Shirts</li>
+              <li>Shirts</li>
+              <li>Jackets</li>
+          </uL></li>
+      </ul>
+      </div>  
+
+      <div>  <ul id="menu">
+        <li><a href="#">WOMEN<span><i class="fa-solid fa-angle-down down"></i></span></a>
+        <uL>
+            <li>T-Shirts</li>
+            <li>Shirts</li>
+            <li>Jackets</li>
+        </uL></li>
+    </ul>
+    </div> 
+
+    <div>  <ul id="menu">
+        <li><a href="#">KIDS<span><i class="fa-solid fa-angle-down down"></i></span></a>
+        <uL>
+            <li>T-Shirts</li>
+            <li>Shirts</li>
+            <li>Jackets</li>
+        </uL></li>
+    </ul>
+    </div> 
+
+    <div>  <ul id="menu">
+        <li><a href="#">CATEGORY<span><i class="fa-solid fa-angle-down down"></i></span></a>
+        <uL>
+            <li>T-Shirts</li>
+            <li>Shirts</li>
+            <li>Jackets</li>
+        </uL></li>
+    </ul>
+    </div> 
+
+    <div>  <ul id="menu">
+        <li><a href="#">BLOG<span><i class="fa-solid fa-angle-down down"></i></span></a>
+      </li>
+    </ul>
+    </div> 
+    <div>  <ul id="menu">
+        <li><a href="#">CONTACT<span><i class="fa-solid fa-angle-down down"></i></span></a>
+      </li>
+    </ul>
+    </div> 
+</div>
+
+<!-- ...............................img box.................................................. -->
+<div id="BOX">
+    <div class="box1">
+        <div class="smallbox1">
+            <h1 class="ess">Essentials</h1>
+            <p class="fierce">Fierce elegance is about authenticity, refinement,
+                beauty and grace. It’s a powerful lady like class 
+               with a touch of sophisticated sass that creates a 
+               sleek and commanding presence.</p>
+               <div class="shop">shop Now</div>
+               <div>
+
+               </div>
+        </div>
+    </div>
+     <div class="box2">
+    <img src="images/hero01 1.jpg" alt=""/>
+    </div>
+</div>
+<!-- ................................lastdiv......................................... -->
+<div id="lastdiv">
+    <li>Sale is live</li>
+    <li>Sale is live</li>
+    <li>Sale is live</li>
+    <li>Sale is live</li>
+    <li>Sale is live</li>
+    <li>Sale is live</li>
+    <li>Sale is live</li>
+    <li>Sale is live</li>
+    <li>Sale is live</li>
+
+</div>
+<!-- ................................................................................. -->
+  
+<div class="B" >
+    <h3>CATEGORY</h3>
+  </div> 
+  
+    
+     <!-- <!-............................................BOX.....................-.....................................  --> 
+     <!-- <div id="BOX1"></div> -->
+     
+  <div class="ingredients">
+    <div><img src="images/Plaidbluesalmon3_360x 1.jpg"></div>
+    <div><img src="images/HatchetHunter3_360x.jpg"></div>
+    <div><img src="images/Grey3_b6162133-8df0-4963-ab88-86351ad88309_360x.jpg"></div>
+    <div><img src="images/LightGrey1_360x.jpg"></div>
+    <div><img src="images/Grey3_b6162133-8df0-4963-ab88-86351ad88309_360x.jpg"></div>
+</div>
+
+
+<!--.................................................................Ayurveda.............................................................................................................-->
+<div class="auyurveda">
+    <div id="ahs1">
+       <a> <img class="auyimg" src="images/slide 1.jpg" alt=""> </a>
+      </div>
+      <div id="ahs1">
+        <div class="deal">
+            <h1>DEAL OF THE DAY</h1>
+            <p>Only this weekend get an additional 30% Off 
+                all Fall & Winter collections.</p>
+                <button>SHOP NOW</button>
+        </div>
+       </div>
+       <div id="ahs1">
+        <a> <img class="auyimg" src="images/pexels-vitaly-14400606 1.jpg" alt=""> </a>
+       </div>
+  </div>
+  <!-- ..................................................................................................... -->
+   
+   <!-- ***************Made for the Way You Move********** -->
+   <div class="dr_martens">  
+       <div>
+           <a href="">
+           <img src="images/1 6.jpg" alt="">
+       </a>
+       </div>
+   <div id="dicount">
+    <div class="deal">
+        <h1>discount 50%</h1>
+        <h2 >Hurry up  End of Season sale</h2>
+            <button>SHOP NOW</button>
+    </div>
+   </div>
+<div id="fixsmall">
+   <img src="images/banner_8 2.jpg"/>
+   <img src="images/2 1.jpg"/>
+   <img src="images/1 6.jpg"/>
+   <img src="images/deal_1_540x_61c1e49e-ea34-41ec-88a8-2ceb7c83394a 1.jpg"/>
+   </div>   
+</div> 
+<!-- .............................................................................................. -->
+<div id="GLAM">
+    <div class="up">
+    <h1>GLAM UP WITH THE
+        PERFECT ADD-ONS</h1>
+        <p>Create your own style with our variety
+            of collections with Mens and Women
+            woolens and trending wear.</p>
+         <button>SHOP NOW</button>   
+         </div>
+
+
+         <div class="iconic">
+            <div><img src="images/col_2.jpg"></div>
+            <div><img src="images/col_3_5952bd83-94c4-4947-92b2-a2a93ff97a28.jpg"></div>
+            <div><img src="images/product-12.jpg"></div>
+            <div><img src="images/col_3_5952bd83-94c4-4947-92b2-a2a93ff97a28.jpg"></div>
+            <div><img src="images/product-12.jpg"></div>
+        </div>
+    </div>
+
+<!-- ........................................................................................ -->
+
+<h1 class="toppick">TOP PICKS</h1>
+    
+<div id="toppic">
+        <div class="item">
+           <img class="photo" src="images/pexels-moose-photos-1036623.jpg" alt=""   />
+             <p> Miko 2 My Companion Robot -Red Robotic </p>
+
+                <h4 style="margin-left: 10px;">Rs 549|Rs 549|save 50%</h4>
+          
+            <button class="btn">Quick Add</button>
+        </div>
+
+        <div class="item">
+            <img class="photo"  src="images/Product-01c_0c950261-5358-4496-8967-b561dfef1023 (1) 1.jpg" alt=""   />
+              <p> Miko 2 My Companion Robot -Red Robotic </p>
+
+                 <h4 style="margin-left: 10px;">Rs 549|Rs 549|save 50%</h4>
+           
+             <button class="btn">Quick Add</button>
+         </div>
+
+         <div class="item">
+            <img class="photo" src="images/product-12.jpg" alt=""   />
+              <p> Miko 2 My Companion Robot -Red Robotic </p>
+
+                 <h4 style="margin-left: 10px;">Rs 549|Rs 549|save 50%</h4>
+           
+             <button class="btn">Quick Add</button>
+         </div>
+
+
+         <div class="item">
+            <img class="photo" src="images/product_3b_911ecab8-da96-46fa-b5fa-49b621a5bac0 1.jpg" alt=""   />
+              <p> Miko 2 My Companion Robot -Red Robotic </p>
+
+                 <h4 style="margin-left: 10px;">Rs 549|Rs 549|save 50%</h4>
+           
+             <button class="btn">Quick Add</button>
+         </div>
+
+         <div class="item">
+            <img class="photo" src="images/product_8b.jpg" alt=""   />
+              <p> Miko 2 My Companion Robot -Red Robotic </p>
+
+                 <h4 style="margin-left: 10px;">Rs 549|Rs 549|save 50%</h4>
+           
+             <button class="btn">Quick Add</button>
+         </div>  
+</div>             
+
+<!-- ........................................................................................... -->
+  <h1 id="sHOP">SHOP THE LOOK</h1>
+<div id="LOOK">
+    <div>
+        <img class="look" src="images/28323211448_c6f1dc103d_b.jpg" alt=""   />
+
+    </div>
+    <div>
+
+        <div class="item">
+            <img class="photo" style="height: 400px; width: 350px;" src="images/Preview-Clean-Theme-Impulse-Ecommerce-Website-Template (1).jpg" alt=""   />
+              <p> Miko 2 My Companion Robot -Red 
+                Robotics for Kids</p>
+
+                 <h4 style="margin-left: 10px;">Rs 549|Rs 549|save 50%</h4>
+           
+             <button class="btn">Quick Add</button>
+         </div> 
+    </div>
+</div>
+
+<!-- ............................................................................................. -->
+<h1 id="our">OUR BEST SELLERS</h1>
+<div id="toppic">
+    <div class="item">
+       <img class="photo" src="images/pexels-moose-photos-1036623.jpg" alt=""   />
+         <p> Miko 2 My Companion Robot -Red Robotic </p>
+
+            <h4 style="margin-left: 10px;">Rs 549|Rs 549|save 50%</h4>
+      
+        <button class="btn">Quick Add</button>
+    </div>
+
+    <div class="item">
+        <img class="photo"  src="images/Product-01c_0c950261-5358-4496-8967-b561dfef1023 (1) 1.jpg" alt=""   />
+          <p> Miko 2 My Companion Robot -Red Robotic </p>
+
+             <h4 style="margin-left: 10px;">Rs 549|Rs 549|save 50%</h4>
+       
+         <button class="btn">Quick Add</button>
+     </div>
+
+     <div class="item">
+        <img class="photo" src="images/product-12.jpg" alt=""   />
+          <p> Miko 2 My Companion Robot -Red Robotic </p>
+
+             <h4 style="margin-left: 10px;">Rs 549|Rs 549|save 50%</h4>
+       
+         <button class="btn">Quick Add</button>
+     </div>
+
+
+     <div class="item">
+        <img class="photo" src="images/product_3b_911ecab8-da96-46fa-b5fa-49b621a5bac0 1.jpg" alt=""   />
+          <p> Miko 2 My Companion Robot -Red Robotic </p>
+
+             <h4 style="margin-left: 10px;">Rs 549|Rs 549|save 50%</h4>
+       
+         <button class="btn">Quick Add</button>
+     </div>
+
+     <div class="item">
+        <img class="photo" src="images/product_8b.jpg" alt=""   />
+          <p> Miko 2 My Companion Robot -Red Robotic </p>
+
+             <h4 style="margin-left: 10px;">Rs 549|Rs 549|save 50%</h4>
+       
+         <button class="btn">Quick Add</button>
+     </div>  
+</div>  
+
+<!-- ............................................................................................ -->
+
+<div id="beauty">
+    <img class="beauty" src="images/Slide-desktop---11_2000x 1.jpg"/>
+    </div>
+<!-- .................................................................................... -->
+
+<h1 id="instagram">INSTAGRAM</h1>
+<div id="INSTAGRAM">
+
+<div id="INSTA">
+    <div>
+        <img  src="images/pexels-leonne-brito-1844012.jpg"/>
+        <img src="images/pexels-ali-pazani-2787341.jpg"/>
+    </div>
+
+    <div>
+        <img  src="images/pexels-vitaly-14400606 1.jpg"/>
+        <img  src="images/pexels-moose-photos-1036623.jpg"/>
+
+    </div>
+    
+</div>
+
+<div id="GRAM">
+    
+    <div>
+        <img src="images/Layer_65.jpg"/>
+
+    </div>
+
+    
+    <div>
+        <img style="width: 300px; height: 196px;" src="images/pexels-leonne-brito-1844012.jpg"/>
+        <img style="width: 300px; height: 196px;"   src="images/banner_8 2.jpg"/>
+
+    </div>
+
+</div>
+
+</div>
+
+<!-- ............................................................................................ -->
+<footer>
+ 
+    <div class="footer-container"> 
+        <div class="footer-logo">
+            <input class="sear"  type="text" placeholder="search here"/>
+
+            <h1>ALMIRON</h1>
+            <p>Lorem ipsum dolor sit amet, cons 
+                lectetur adipisng elit, sed do eiusmod 
+                tebore et dolore magna aliqua. ultrices
+                 grs accumsanvel facilisis.</p>
+        
+        </div>
+        <div class="footer-links">
+            <div class="platform">
+                <h2>INFORMATION</h2>
+                <ul>
+                    <a href="#"><li>How it Works</li></a>
+                    <a href="#"><li>Checkout</li></a>
+                    <a href="#"><li>Fraud</li></a>
+                    <a href="#"><li>Protection</li></a>
+                    <a href="#"><li>Payments</li></a>
+                    <a href="#"><li>Accounts</li></a>
+                </ul>
+            </div>
+            <div class="learning">
+                <h2>ACCOUNT</h2>
+                <ul>
+                    <a href="#"><li>Resources</li></a>
+                    <a href="#"><li>Blog</li></a>
+                    <a href="#"><li>FAQs</li></a>
+                    <a href="#"><li>ThinkShop</li></a>
+                </ul>
+            </div>
+            <div class="About">
+                <h2>LOCATION</h2>
+                <ul>
+                    <a href="#"><li>Careers</li></a>
+                    <a href="#"><li>Team</li></a>
+                    <a href="#"><li>Partners</li></a>
+                    <a href="#"><li>Contact Us</li></a>
+                    <a href="#"><li>News & Press</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-contactus">
+            <h2>Contact US</h2>
+            <button>Get in touch</button>
+        </div> 
+     </div> 
+    </footer>
+
+
+<!-- ..................................................................................... -->
+    </div>
+</body>
+</html>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+
+  $('.ingredients').slick({
+  centerMode: true,
+  //  dots: true,
+//   autoplay: true,
+//   autoplaySpeed: 1000,
+  centerPadding: '20px',
+  slidesToShow: 3,})
+
+
+  $('.iconic').slick({
+  centerMode: true,
+  //  dots: true,
+//   autoplay: true,
+//   autoplaySpeed: 1000,
+  centerPadding: '20px',
+  slidesToShow: 3,})
+
+  </script>
+
+
